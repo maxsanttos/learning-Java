@@ -18,7 +18,7 @@ public class App {
 
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		
-		System.out.println("Entre os dados do contrato:");
+		System.out.println("ENTRE COM OS DADOS DO CONTRATO:");
 		System.out.print("Numero: ");
 		int number = sc.nextInt();
 		System.out.print("Data (dd/MM/yyyy): ");
@@ -32,15 +32,14 @@ public class App {
 		int n = sc.nextInt();
 		
 		ContractService contractService = new ContractService(new PaypalService());
-		
 		contractService.processContract(obj, n);
 		
-		System.out.println("Parcelas:");
+		System.out.println();
+		System.out.println("PARCELAS:");
 		for (Installment installment : obj.getInstallments()) {
 			System.out.println(installment);
 		}
 		
-
         sc.close();
     }
 }

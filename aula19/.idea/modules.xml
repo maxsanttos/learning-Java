@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01 jdbc - connectando/01 jdbc - connectando.iml" filepath="$PROJECT_DIR$/01 jdbc - connectando/01 jdbc - connectando.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_jdbc02/02_jdbc02.iml" filepath="$PROJECT_DIR$/02_jdbc02/02_jdbc02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_jdbc03/03_jdbc03.iml" filepath="$PROJECT_DIR$/03_jdbc03/03_jdbc03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_jdbc04/04_jdbc04.iml" filepath="$PROJECT_DIR$/04_jdbc04/04_jdbc04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_jdbc/05_jdbc.iml" filepath="$PROJECT_DIR$/05_jdbc/05_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aula19.iml" filepath="$PROJECT_DIR$/.idea/aula19.iml" />
+    </modules>
+  </component>
+</project>

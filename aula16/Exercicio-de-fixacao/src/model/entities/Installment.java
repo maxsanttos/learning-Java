@@ -2,7 +2,6 @@ package model.entities;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 public class Installment {
     
@@ -20,16 +19,10 @@ public class Installment {
         return dueDate;
     }
 
-    /**
-     * @param dueDate the dueDate to set
-     */
     public void setDueDate(LocalDate dueDate) {
         this.dueDate = dueDate;
     }
 
-    /**
-     * @return Double return the amount
-     */
     public Double getAmount() {
         return amount;
     }
